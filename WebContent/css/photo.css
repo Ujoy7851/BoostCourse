@@ -1,0 +1,71 @@
+body {
+	background-color: lightgray;
+}
+
+.button {
+	display: inline-block;
+	background-color: lightblue;
+	color: white;
+	width: 100px;
+	margin: 20px 5px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px lightgray;
+	transition-duration: 0.4s;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.body-header {
+	background-color: white;
+	margin: 10px;
+}
+
+.header-nav {
+	text-align: right;
+	padding: 0 15px;
+}
+
+.button:hover{
+	background-color: gray;
+}
+
+.body-section {
+	background-color: white;
+	margin: 10px;
+	padding: 10px 50px;
+	text-align: left;
+}
+
+.body-section article {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.body-section .photo {
+	max-width: 250px;
+	float: left;
+	border: 5px solid lightgray;
+	margin: 0 20px 0 0;
+}
+
+.body-section .photo-info {
+	font-size: 15px;
+}
+
+.body-section hr {
+	height: 2px;
+	color: lightgray;
+	background-color: lightgray;
+	border-width: 0;
+}
+
+.body-footer {
+	background-color: white;
+	color: gray;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
